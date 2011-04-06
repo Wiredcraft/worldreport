@@ -1,0 +1,10 @@
+.*
+
+!.gitignore
+!.htaccess
+
+html/sites/default/
+!html/sites/default/default.settings.php
+
+download.sh
+lists
