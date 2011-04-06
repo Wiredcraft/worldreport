@@ -1,0 +1,19 @@
+name = "Kenver"
+description = "Custom theme for World Report."
+base theme = "tao"
+core = "6.x"
+engine = "phptemplate"
+
+;css
+stylesheets[screen][] = "css/style.css"
+stylesheets[screen][] = "css/fonts.css"
+
+;js
+;scripts[] = ""
+
+;Regions
+regions[left] = "Left sidebar"
+regions[right] = "Right sidebar"
+regions[content] = "Content"
+regions[header] = "Header"
+regions[footer] = "Footer"

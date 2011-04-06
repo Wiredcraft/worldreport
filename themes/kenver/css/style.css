@@ -1,0 +1,402 @@
+/**
+ * GENERAL
+ */
+body {
+	background: #fff url("../images/bg-body.png") repeat-x left top;
+	color: #606060;
+	font: 12px/160% Arial, Helvetica, sans-serif;
+	text-align: center;
+} 
+
+a {
+	color: #5FC8F5;
+	text-decoration: none;
+}
+ 
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+  outline: 0;
+}
+
+a img {
+  border: none;
+	vertical-align: top;
+}
+
+h1, h2, h3, h4, h5,
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/*Forms*/
+.form-item {
+	margin-bottom: 10px;
+}
+
+.form-item label {
+	font: normal 15px Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+
+}
+
+.form-text,
+.form-textarea {
+	background: #fff;
+	padding: 3px 5px;	
+}
+
+input.form-radio,
+input.form-checkbox {
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.form-submit {
+	background: #A5C128;
+	color: #fff;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	padding: 0.25em 0.5em;
+	margin: 0;
+	text-transform: uppercase;
+	width: auto;
+	*width: 1;
+	overflow: visible;
+}
+
+.form-required {
+	color: #f00;
+}
+
+.autogrow textarea {
+  min-height: 110px;
+}
+
+
+/*Restet Messages & Error & Warning*/
+.error {
+  color: #666;
+}
+
+.warning {
+  color: #e09010;
+}
+
+.ok {
+  color: #008000;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid red;
+}
+
+div.status,
+div.error,
+div.warning,
+div.ok,
+div.messages  {
+  border: none 0;
+  font-size: 15px;
+  margin: 0 0 15px;
+  padding: 7px 10px 5px 10px;
+}
+
+div.status,
+div.ok,
+div.messages.status,
+div.messages.ok,
+table tr.status,
+table tr.ok {
+  background: #d8ffa3 url(../images/icon-ok.png) no-repeat scroll 10px 8px;
+  color: #2e5b02;
+  padding-left: 35px;
+}
+
+div.error,
+div.messages.error,
+table tr.error {
+  background: #ffc4c1 url(../images/icon-error.png) no-repeat scroll 10px 10px;
+  color: #a40000;
+  padding-left: 35px;
+}
+
+div.warning,
+div.messages.warning,
+table tr.warning {
+  background: #ffed7b url(../images/icon-warning.png) no-repeat scroll 10px 10px;
+  color: #b14300;
+  padding-left: 35px;
+}
+
+.messages li {
+	list-style: disc inside;
+}
+
+/*Reset Pagers styles*/
+.pager li {
+  margin: 0 2px;
+  padding: 0;
+  text-transform: capitalize;
+}
+ /*
+.pager li.pager-previous {
+ background: url(../images/seperate_blue.gif) no-repeat right 5px;
+  padding-right: 12px;
+  margin-right: 4px;
+}
+
+.pager li.pager-next {
+  /*background: url(../images/seperate_blue.gif) no-repeat left 5px;
+  padding-left: 11px;
+  margin-left: 4px;
+}
+*/
+
+.pager li.pager-current,
+.pager li.pager-item a,
+.pager li.pager-next a,
+.pager li.pager-previous a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  color: #e3007e;
+  font-weight: normal;
+  padding: 1px 4px;
+}
+
+.pager li.pager-current:hover,
+.pager li.pager-item a:hover,
+.pager li.pager-next a:hover,
+.pager li.pager-previous a:hover {
+  background: #e3007e;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/**
+ * LAYOUT
+ */
+.region {
+	float: left;
+	width: 100%;
+} 
+
+.container {
+	background: #fff;
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	position: relative;
+}
+
+/**
+ * HEADER
+ */
+#header .container {
+	overflow: hidden;
+} 
+
+#slogan {
+	margin: 20px 0 0 20px;
+	float: left;
+} 
+
+#slogan h1 {
+	float: left;
+	height: 45px;
+	margin-right: 15px;
+	width: 185px;
+} 
+
+#slogan a {
+	background: transparent url("../images/logo.png") no-repeat left top;
+	display: block;
+	height: 45px;
+	text-indent: -9999px;
+	width: 185px;
+}
+
+#slogan p {
+	color: #BEB5B4;
+	float: left;
+	margin-top: 5px;
+	
+}
+
+
+#block-menu-menu-login {
+	height: 25px;
+	line-height: 25px;
+	width: 115px;
+	float: right;
+	text-align: center;
+}
+
+#block-menu-menu-login a {
+	background: transparent url("../images/Enviso_login.png") no-repeat scroll right top;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	height: 25px;
+	width: 115px;
+}
+
+.navigation {
+	background: transparent url("../images/Enviso_primary.png") no-repeat scroll right center;
+	height: 33px;
+	line-height: 33px;
+	width: 734px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.navigation ul {
+	float: right;
+}
+
+.navigation li a {
+	padding: 0 12px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.navigation li.active a,
+.navigation li a:hover {
+	color: #5FC8F5;
+}
+
+/**
+ * Page
+ */
+#page .container {
+	padding-bottom: 80px;
+} 
+
+/**
+ * Page Home
+ */
+.view-frontpage {
+	width: 960px;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+} 
+.page-home #block-block-1 {
+	background: transparent url("../images/Enviso_front_headline_base.png") no-repeat left top;
+	height: 122px;
+	width: 719px;
+	position: absolute;
+	left: 0;
+	top: 250px;
+	z-index: 100;
+} 
+
+.page-home #block-block-1 .block-content {
+	padding: 30px 65px 30px 25px;
+}
+
+.page-home #block-block-1 .enviso-name {
+	float: left;
+	color: #fff;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 150%;
+}
+
+.page-home #block-block-1 p {
+	font-size: 20px;
+	color: #000;
+	line-height: 150%;
+}
+.page-home #block-boxes-block2,
+.page-home #block-boxes-block3,
+.page-home #block-boxes-block4 {
+	padding-top: 97px;
+	width: 320px;
+	float: left;
+}
+
+.page-home #block-boxes-block2 .block-title {
+	margin-left: 25px;
+	padding-left: 45px;
+	margin-right: 85px;
+	background: transparent url("../images/Enviso-star_1.png") no-repeat left top;
+	font-size: 16px;
+	color: #4681D0;
+	margin-bottom: 5px;
+}
+
+.page-home #block-boxes-block2 .block-content {
+	margin-left: 25px;
+	margin-right: 35px;
+	padding-left: 45px;
+}
+
+.page-home #block-boxes-block3 .block-title {
+	padding-left: 55px;
+	margin-right: 110px;
+	background: transparent url("../images/Enviso-star_2.png") no-repeat left top;
+	font-size: 16px;
+	color: #9DB11A;
+	margin-bottom: 5px;
+}
+
+.page-home #block-boxes-block3 .block-content {
+	margin-right: 35px;
+	padding-left: 55px;
+}
+
+.page-home #block-boxes-block4 .block-title {
+	padding: 15px 0 0 115px;
+	margin-bottom: 5px;
+	color: #50ADE5;
+	font-size: 14px;
+	margin-left: 15px;
+} 
+
+.page-home #block-boxes-block4 .block-content {
+	background: transparent url("../images/forbes-logo.png") no-repeat left top;
+	padding-left: 115px;
+	margin-right: 70px;
+	margin-left: 15px;
+}
+
+.page-home #block-boxes-block4 .block-content a {
+	color: #D96F57;
+}
+/**
+ * Footer
+ */
+#footer .container {
+	background: transparent url("../images/Enviso_footer.png") repeat-x left top;
+	padding: 20px 150px;
+	text-align: center;
+	width: 660px;
+}
