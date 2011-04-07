@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Entries.Log
 
 .*
@@ -14,3 +15,15 @@ Entries.Log
 html/backup
 *.mo
 
+=======
+.*
+
+!.gitignore
+!.htaccess
+
+html/sites/default/
+!html/sites/default/default.settings.php
+
+download.sh
+lists
+>>>>>>> 52a069604471744a16ae70697d7b2f149113fb63
