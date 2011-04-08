@@ -53,7 +53,7 @@ function features_story_content_default_fields() {
       'default_image' => NULL,
       'use_default_image' => 0,
       'label' => 'Thumbnail',
-      'weight' => '31',
+      'weight' => '-3',
       'description' => '',
       'type' => 'imagefield_widget',
       'module' => 'imagefield',

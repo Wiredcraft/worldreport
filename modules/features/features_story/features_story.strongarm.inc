@@ -11,13 +11,14 @@ function features_story_strongarm() {
   $strongarm->name = 'content_extra_weights_story';
   $strongarm->value = array(
     'title' => '-5',
-    'body_field' => '0',
-    'revision_information' => '20',
-    'author' => '20',
-    'options' => '25',
-    'comment_settings' => '30',
-    'menu' => '-2',
-    'attachments' => '30',
+    'body_field' => '-2',
+    'revision_information' => '0',
+    'author' => '1',
+    'options' => '2',
+    'comment_settings' => '3',
+    'menu' => '-1',
+    'taxonomy' => '-4',
+    'attachments' => '4',
   );
 
   $export['content_extra_weights_story'] = $strongarm;

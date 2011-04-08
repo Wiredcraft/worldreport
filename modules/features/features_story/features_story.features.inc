@@ -11,6 +11,29 @@ function features_story_ctools_plugin_api() {
 }
 
 /**
+ * Implementation of hook_imagecache_default_presets().
+ */
+function features_story_imagecache_default_presets() {
+  $items = array(
+    'stories-thumbnail' => array(
+      'presetname' => 'stories-thumbnail',
+      'actions' => array(
+        '0' => array(
+          'weight' => '0',
+          'module' => 'imagecache',
+          'action' => 'imagecache_scale_and_crop',
+          'data' => array(
+            'width' => '240',
+            'height' => '120',
+          ),
+        ),
+      ),
+    ),
+  );
+  return $items;
+}
+
+/**
  * Implementation of hook_node_info().
  */
 function features_story_node_info() {
@@ -28,4 +51,13 @@ function features_story_node_info() {
     ),
   );
   return $items;
+}
+
+/**
+ * Implementation of hook_views_api().
+ */
+function features_story_views_api() {
+  return array(
+    'api' => '2',
+  );
 }
