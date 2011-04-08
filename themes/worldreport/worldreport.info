@@ -1,0 +1,27 @@
+name = "Worldreport"
+core = "6.x"
+description = "Custom theme for World Report"
+engine = "phptemplate"
+base theme  = "Tao"
+
+;REGIONS======================================
+regions[left] = "Left sidebar"
+regions[right] = "Right sidebar"
+regions[content] = "Content"
+regions[content_bottom] ="Content bottom"
+regions[header] = "Header"
+regions[footer] = "Footer"
+
+
+;STYLESHEETS==================================
+stylesheets[screen][] = "css/style.css"
+
+
+;JAVASCRIPT===================================
+
+
+; Information added by drupal.org packaging script on 2010-10-21
+version = "6.x"
+core = "6.x"
+project = "World Report"
+
