@@ -2,15 +2,17 @@ name = "Worldreport"
 core = "6.x"
 description = "Custom theme for World Report"
 engine = "phptemplate"
-base theme  = "Tao"
+base theme  = "tao"
 
 ;REGIONS======================================
 regions[left] = "Left sidebar"
 regions[right] = "Right sidebar"
 regions[content] = "Content"
-regions[content_bottom] ="Content bottom"
 regions[header] = "Header"
 regions[footer] = "Footer"
+regions[cloumn_left] = "Cloumn left"
+regions[cloumn_middle] = "Cloumn middle"
+regions[cloumn_right] = "Cloumn right"
 
 
 ;STYLESHEETS==================================
@@ -20,8 +22,26 @@ stylesheets[screen][] = "css/style.css"
 ;JAVASCRIPT===================================
 
 
-; Information added by drupal.org packaging script on 2010-10-21
-version = "6.x"
-core = "6.x"
-project = "World Report"
+;Layout:Default===============================
+layouts[default][name] = Default
+layouts[default][description] = Default.
+layouts[default][template] = page
+layouts[default][regions][] = left
+layouts[default][regions][] = right
+layouts[default][regions][] = content
+layouts[default][regions][] = header
+layouts[default][regions][] = footer
+
+;Layout:Frontpage=============================
+layouts[frontpage][name] = Frontpage
+layouts[frontpage][description] = page-frontpage.
+layouts[frontpage][template] = page-frontpage
+layouts[frontpage][regions][] = left
+layouts[frontpage][regions][] = right
+layouts[frontpage][regions][] = content
+layouts[frontpage][regions][] = header
+layouts[frontpage][regions][] = footer
+layouts[frontpage][regions][] = cloumn_left
+layouts[frontpage][regions][] = cloumn_middle
+layouts[frontpage][regions][] = cloumn_right
 
