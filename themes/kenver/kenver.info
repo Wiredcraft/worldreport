@@ -17,3 +17,13 @@ regions[right] = "Right sidebar"
 regions[content] = "Content"
 regions[header] = "Header"
 regions[footer] = "Footer"
+
+; frontpage layout
+layouts[frontpage][name] = "Frontpage"
+layouts[frontpage][description] = "Frontpage layout"
+layouts[frontpage][template] = "page.frontpage"
+layouts[frontpage][regions][] = "header"
+layouts[frontpage][regions][] = "content"
+layouts[frontpage][regions][] = "left"
+layouts[frontpage][regions][] = "right"
+layouts[frontpage][regions][] = "footer"
