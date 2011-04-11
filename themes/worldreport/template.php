@@ -32,7 +32,7 @@ function worldreport_preprocess_views_view_fields(&$vars) {
   
   //clinical_topics
   if ($view->name == 'clinical_topics') {
-    if (in_array($view->current_display, array('attachment_1'))) {
+    if (in_array($view->current_display, array('attachment_1', 'attachment_2', 'attachment_3', 'attachment_4', 'attachment_5', 'attachment_6', 'attachment_7', 'attachment_8', 'attachment_9'))) {
       $view_node = $vars['fields']['view_node'];
       unset($vars['fields']['view_node']);
       $vars['fields']['body']->content .= '<span class="view-node">'. $view_node->content.'</span>';
