@@ -330,3 +330,306 @@ ul.primary-menu {
 #search .form-submit {
 	padding: 5px 4px;
 }
+
+/**
+*	Front page content
+*/
+
+.block {
+	position: relative;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#page .block-title {
+	background: #4C4C4C;
+	color: #fff;
+	display: inline-block;
+	line-height: 1;
+	margin: 0 0 10px;
+	padding: 7px 35px 6px 10px;
+	position: relative;
+	font-size: 12px;
+}
+
+/*block-views-frontpage_features-block_1*/
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_main  {
+	float: left;
+	height: 280px;
+	overflow: hidden;
+	width: 240px;
+}
+
+#block-views-frontpage_features-block_1 .views-slideshow-controls-bottom {
+	float: right;
+	overflow: hidden;
+	width: 250px;
+}
+
+#block-views-frontpage_features-block_1 .views-field-field-slideshow-picture-fid {
+	height: 200px;
+	margin-bottom: 10px;
+	margin-right: 8px;
+	width: 240px;
+}
+
+#block-views-frontpage_features-block_1 .views-field-title {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#block-views-frontpage_features-block_1 .views-field-body {
+	color: #666;
+	margin-right: 12px;
+	float: left;
+}
+
+#block-views-frontpage_features-block_1 .views-field-comment-count {
+	background: url("../images/chat-bubble.gif") no-repeat scroll 0 1px;
+	font-size: 10px;
+	float: left;
+	margin-top: 4px;
+	color: #2881B3;
+	height: 13px;
+	line-height: 13px;
+	width: 14px;
+	text-align: center;
+}
+
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser {
+	border-bottom: 1px dotted #ddd;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser .views-field-title {
+	margin-bottom: 0;
+}
+
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser .views-field-title a:hover {
+	font-weight: bold;
+}
+
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser .views-field-body {
+	float: none;
+	margin-right: 0;
+	margin-bottom: 5px;
+	color: #999;
+}
+
+/*block-views-Articles-block_1*/
+#block-views-Articles-block_1 .views-row {
+	display: inline;
+	float: left;
+	margin-right: 9px;
+	width: 160px;
+}
+
+#block-views-Articles-block_1 .views-row-last {
+	margin-right: 0;
+}
+
+#block-views-Articles-block_1 .views-field-field-article-thumbnail-fid {
+	height: 70px;
+	width: 160px;
+	margin: 0 auto 5px;
+}
+
+#block-views-Articles-block_1 .views-field-name a {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #999;
+}
+
+#block-views-Articles-block_1 .views-field-name a:hover {
+	color: #333;
+}
+
+#block-views-Articles-block_1  .views-field-title a {
+	color: #333;
+}
+
+#block-views-Articles-block_1 .views-field-body p {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+/*Stories*/
+.view-stories {
+	overflow: hidden;
+	border-bottom: 1px dotted #ddd;
+}
+.view-stories .view-stories {
+	border-bottom: 0;
+}
+.view-stories .attachment {
+	float: left;
+	width: 240px;
+	margin-right: 8px;
+	padding-bottom: 15px;
+}
+
+.view-stories .attachment .views-field-field-story-thumbnail-fid {
+	height: 120px;
+	margin: 0 8px 10px 0;
+}
+
+.view-stories .attachment .views-field-title {
+	color: #000;
+	font-weight: bold;
+	float: left;
+	margin-right: 8px;
+}
+
+.view-stories .attachment .views-field-comment-count {
+	background: url("../images/chat-bubble.gif") no-repeat scroll 0 1px;
+	font-size: 10px;
+	float: left;
+	margin-top: 4px;
+	color: #2881B3;
+	height: 13px;
+	line-height: 13px;
+	width: 14px;
+	text-align: center;	
+}
+.view-stories  .view-content {
+	margin-left: 255px;
+	padding-bottom: 15px;
+	line-height: 24px;
+}
+
+.view-stories .view-stories .view-content {
+	margin-left: 0;
+	padding-bottom: 0;
+}
+
+.view-stories  .views-field-title a {
+	color: #333;
+}
+
+.view-stories  .views-field-title a:hover {
+	text-decoration: underline;
+}
+.view-stories  .view-stories .views-field-title a {
+	color: #2881B3;
+}
+.view-stories  .view-stories .views-field-title a:hover {
+	text-decoration: none;
+}
+
+.view-stories .more-link a {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 12px;
+	text-decoration: none;
+	background: #2888C6;
+	color: #fff;
+	float: right;
+	padding: 2px 8px;
+	margin: 16px 0 10px;
+}
+
+.view-stories .more-link a:focus,
+.view-stories .more-link a:hover {
+	background: #3394cf;
+}
+
+/*Cloumn_left*/
+
+#cloumn_left .block,
+#cloumn_middle .block,
+#cloumn_right .block {
+	border-right: 1px solid #eee;
+	position: relative;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#cloumn_right .block {
+	border-right: none;
+}
+
+.view-clinical-topics .view-clinical-topics .views-field-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 6px;
+	color: #333;
+}
+
+.view-clinical-topics .view-content li.views-row {
+	background: url("../images/sprite.gif") no-repeat scroll left bottom;
+	padding-left:8px;
+	list-style: none inside none;
+}
+
+.view-clinical-topics .view-content li.views-row a {
+	color: #333;
+}
+
+.view-clinical-topics .view-content li.views-row a:hover {
+	text-decoration: underline;
+}
+/*Reports*/
+.view-clicnical-reports .view-content {
+	padding-bottom: 15px;
+}
+.view-clicnical-reports .views-row a {
+	color: #333;
+}
+
+.view-clicnical-reports .views-row a:hover {
+	text-decoration: underline;
+}
+
+/*view-Comments*/
+.view-Comments .views-row {
+	overflow: hidden;
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	line-height: 24px;
+}
+
+.view-Comments  .views-field-comment p {
+	margin-bottom: 5px;
+	color: #666;
+}
+
+.view-Comments .views-field-picture {
+	float: left;
+	margin-right: 5px;
+}
+
+
+.view-Comments .views-field-picture img { 
+	border: 1px solid #f0f0f0;
+	padding: 1px;
+}
+
+.view-Comments .views-field-name {
+	float: left;
+	margin-right: 5px;
+}
+
+.view-Comments .views-field-timestamp {
+	color: #ccc;
+}
+/*Most popular*/
+.view-popular .views-field-name a {
+	color: #666;
+	text-transform: uppercase;
+}
+
+.view-popular .views-field-name a:hover {
+	color: #000;
+	text-decoration: underline;
+} 
+
+/**
+ * Footer
+ */
+#footer {
+	background: #4c4c4c;
+	margin-top: 20px;
+	color: #fff;
+} 

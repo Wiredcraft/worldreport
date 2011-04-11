@@ -73,12 +73,15 @@
       </div>
     <?php endif; ?>
 	</div>	
-	 <div class="clear"></div>	
-   <div id="footer" class="region clearfix">
+	 
+</div>
+
+<div id="footer" class="region clearfix">
+	<div class="wrap">
     <?php print $feed_icons ?>
     <?php print $footer ?>
     <?php print $footer_message ?>
-  </div>
+  </div>  
 </div>
   <?php print $scripts ?>
   <?php print $closure ?>
