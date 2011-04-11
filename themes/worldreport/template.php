@@ -1,5 +1,18 @@
 <?php
+/**
+ * Implement hook_theme
+ */
+function worldreport_theme() {
+  $items = array();
 
+  // Consolidate a variety of theme functions under a single template type.
+  $items['block'] = array(
+    'arguments' => array('block' => NULL),
+    'template' => 'object',
+    'path' => drupal_get_path('theme', 'worldreport') .'/templates',
+  );
+  return $items;
+}
 /**
  * Implementation hook_preprocess_views_view
  */
@@ -55,7 +68,7 @@ function worldreport_preprocess_views_view_fields(&$vars) {
 function worldreport_preprocess_block(&$vars) {
   $block = $vars['block'];
   
-  if ($block->module == 'views' && $block->delta == 'block_4') {
+  if ($block->module == 'views' && $block->delta == 'news-block_4') {
     $vars['bg_before'] = true;
   }
 }
