@@ -72,6 +72,7 @@
   <?php if ($bg_after):?>
     <div class="bg-after"></div>
   <?php endif;?>
+  
   <?php if ($pager): ?>
     <?php print $pager; ?>
   <?php endif; ?>

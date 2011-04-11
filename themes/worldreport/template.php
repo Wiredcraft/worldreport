@@ -48,3 +48,14 @@ function worldreport_preprocess_views_view_fields(&$vars) {
     }
   }
 }
+
+/**
+ * Preprocess hook_preprocess_block
+ */
+function worldreport_preprocess_block(&$vars) {
+  $block = $vars['block'];
+  
+  if ($block->module == 'views' && $block->delta == 'block_4') {
+    $vars['bg_before'] = true;
+  }
+}
