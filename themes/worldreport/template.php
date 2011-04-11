@@ -8,7 +8,7 @@ function worldreport_preprocess_views_view(&$vars) {
   if ($view->name == 'news') {
     // for frontpage first news block
     if ($view->current_display == 'block_4') {
-      
+      $vars['bg_before'] = true;
     }
     // for attach
     if (in_array($view->current_display, array('attachment_1', 'attachment_2', 'attachment_3')) ) {
