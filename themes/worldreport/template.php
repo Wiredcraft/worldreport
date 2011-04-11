@@ -38,4 +38,13 @@ function worldreport_preprocess_views_view_fields(&$vars) {
       $vars['fields']['body']->content .= '<span class="view-node">'. $view_node->content.'</span>';
     }
   }
+  
+  // popular
+  if ($view->name == 'popular') {
+    if (in_array($view->current_display, array('block_1'))) {
+      $comment_count = $vars['fields']['comment_count'];
+      unset($vars['fields']['comment_count']);
+      $vars['fields']['body']->content .= '<span class="comment-count">'.$comment_count->content .'</span>'; 
+    }
+  }
 }
