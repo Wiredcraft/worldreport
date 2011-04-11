@@ -22,4 +22,20 @@ function worldreport_preprocess_views_view(&$vars) {
        $vars['header'] .= $output.'</div>';
     }
   }
-} 
+}
+
+/**
+ * Implementation hook_preprocess_views_fields
+ */
+function worldreport_preprocess_views_view_fields(&$vars) {
+  $view = $vars['view'];
+  
+  //clinical_topics
+  if ($view->name == 'clinical_topics') {
+    if (in_array($view->current_display, array('attachment_1'))) {
+      $view_node = $vars['fields']['view_node'];
+      unset($vars['fields']['view_node']);
+      $vars['fields']['body']->content .= '<span class="view-node">'. $view_node->content.'</span>';
+    }
+  }
+}
