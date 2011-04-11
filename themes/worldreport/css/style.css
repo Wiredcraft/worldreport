@@ -556,6 +556,10 @@ ul.primary-menu {
 	color: #333;
 }
 
+.view-clinical-topics .view-content ul {
+	padding-bottom: 15px;
+}
+
 .view-clinical-topics .view-content li.views-row {
 	background: url("../images/sprite.gif") no-repeat scroll left bottom;
 	padding-left:8px;
@@ -624,6 +628,28 @@ ul.primary-menu {
 	color: #000;
 	text-decoration: underline;
 } 
+
+.view-popular .views-field-title a{
+	margin-right: 5px;
+}
+
+.view-popular .views-field-title a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.view-popular .views-field-title .comment-count {
+	background: url("../images/chat-bubble.gif") no-repeat scroll 50% 51%;
+	font-size: 10px;
+	color: #2881B3;
+	padding: 3px 4px 4px;
+	text-align: center;	
+}
+
+.view-popular .views-field-body p {
+	color: #666;
+	margin-bottom: 5px;
+}
 /*News*/
 #block-views-news-block_4 {
 	margin-bottom: 10px;
