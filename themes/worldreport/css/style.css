@@ -624,7 +624,105 @@ ul.primary-menu {
 	color: #000;
 	text-decoration: underline;
 } 
+/*News*/
+#block-views-news-block_4 {
+	margin-bottom: 10px;
+	padding: 0;
+	position: relative;
+	background: #efefec;
+}
 
+#block-views-news-block_4 .block-content {
+	padding: 10px 15px;
+}
+
+.view-news .view-header {
+	background: #4C4C4C;
+	color: #fff;
+	display: inline-block;
+	line-height: 1;
+	margin: 0  0 10px -20px;
+	padding: 7px 35px 6px 10px;
+	position: relative;
+	font-size: 12px;
+}
+
+.view-news .view-content .views-row {
+	border-bottom:  1px dotted #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.view-news  .views-field-title {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.view-news  .views-field-title a {
+	color: #000;
+	text-decoration: none;
+}
+
+.view-news .views-field-body p {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.view-news .views-field-view-node a {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	text-decoration: none;
+	background: #ddd;
+	color: #666;
+	float: right;
+	padding: 2px 8px;
+	margin-top: 15px;
+}
+
+.view-news .attachment .view-news .view-header {
+	color: #666;
+	font-size: 11px;
+	padding: 0;
+	display: block;
+	margin: 0 0 5px 0;
+	background: transparent; 
+}
+
+.view-news .attachment .view-news .view-header a {
+	text-transform: uppercase;
+	color: #666;
+	text-decoration: none;
+}
+
+.view-news .attachment .view-news .view-header a:hover {
+	color: #000;
+}
+.view-news .attachment .view-news {
+	padding-bottom: 15px;
+}
+.view-news .attachment .view-news .view-content .views-row {
+	border: none;
+	margin: 0;
+	padding: 0 0 0 8px;
+	background: url("../images/sprite.gif") no-repeat scroll left bottom;
+	
+}
+
+.view-news .attachment .view-news .view-content .views-row .views-field-title {
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.view-news .attachment .view-news .view-content .views-row .views-field-title a {
+	color: #333;
+}
+.view-news .attachment .view-news .view-content .views-row .views-field-title a:hover {
+	text-decoration: underline;
+}
 /**
  * Footer
  */
