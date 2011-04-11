@@ -492,6 +492,9 @@ function features_news_views_default_views() {
       'relationship' => 'none',
     ),
   ));
+  $handler->override_option('header', 'News');
+  $handler->override_option('header_format', '1');
+  $handler->override_option('header_empty', 0);
   $handler->override_option('items_per_page', 1);
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
