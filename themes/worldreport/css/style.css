@@ -417,6 +417,10 @@ ul.primary-menu {
 	margin-bottom: 0;
 }
 
+#block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser .views-field-title a {
+	color: #000;
+	font-size: 12px;
+} 
 #block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_div_breakout_teaser .views-field-title a:hover {
 	font-weight: bold;
 }
