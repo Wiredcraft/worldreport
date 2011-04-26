@@ -352,6 +352,7 @@ ul.primary-menu {
 	font-size: 12px;
 }
 
+
 /*block-views-frontpage_features-block_1*/
 #block-views-frontpage_features-block_1 .views_slideshow_thumbnailhover_main  {
 	float: left;
@@ -376,6 +377,18 @@ ul.primary-menu {
 #block-views-frontpage_features-block_1 .views-field-title {
 	font-size: 12px;
 	margin-bottom: 5px;
+}
+#block-views-frontpage_features-block_1 .view-frontpage-features .attachment-before {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#block-views-frontpage_features-block_1 .view-frontpage-features .attachment-before .views-field-title a {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
 }
 
 #block-views-frontpage_features-block_1 .views-field-body {
